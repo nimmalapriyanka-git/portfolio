@@ -1,0 +1,10 @@
+/* when the screen size is lower than 1200px the desktop nav is gonna disaapear anad show ham menu*/
+
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #ham-nav{
+        display:flex ;
+    }
+}
