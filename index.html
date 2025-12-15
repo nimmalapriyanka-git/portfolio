@@ -38,22 +38,284 @@
     </nav>
 
     <section id="profile">
-        <div class="section_pic-container">
-            <img src="./assets/profile-pic.png" alt="priyanka picture">
+        <div class="section__pic-container">
+            <img src="./assets/p-pic.jpg" alt="my picture" class="pic">
         </div>
 
         <div class="section__text">
             <p class="section__text__p1">hello, I'm</p>
-            <h1 class="title">Priyanka</h1>
+            <h1 class="title name">Priyanka</h1>
             <p class="section__text__p2">Frontend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download RESUME</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                    Download resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
             </div>
-            <div class="btn-container">
-                <button class="btn btn-color-1" onclick="location.href('./#contact')">Download RESUME</button>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" 
+                    alt="LinkedIn profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/priyanka-nimmala-6768a9372/'">
+                <img src="./assets/github.png" 
+                    alt="github profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/nimmalapriyanka-git'">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                    src="assets/about-pic.png" 
+                    alt="profile picture" 
+                    class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                            src="./assets/experience.png" 
+                            alt="experience icon" 
+                            class="icon">
+                        <h3>Experience</h3>
+                        <p>0 years hehe<br /> Development </p>
+                    </div>
+
+                    <div class="details-container">
+                        <img 
+                            src="./assets/education.png" 
+                            alt="eduaction icon" 
+                            class="icon">
+                        <h3>Education</h3>
+                        <p>Undergraduate Degree<br />Computer science</p>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quasi libero, officiis quis accusamus aliquam culpa ratione dolorum rerum voluptate debitis numquam sit ea, pariatur quo distinctio quod voluptates accusantium!</p>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Devlopment </h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>idk man</h3>
+                                <p>xxx</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>idk man2</h3>
+                                <p>xxx</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>idk man3</h3>
+                                <p>xxx</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Devlopment </h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>DSA</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>UI/UX</h3>
+                                <p>ideki</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>shit1</h3>
+                                <p>xxx</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="./assets/checkmark.png" alt="experience icon">
+                            <div>
+                                <h3>shit 2</h3>
+                                <p>xxx</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/project-1.png"
+                        alt="project 1 png"
+                        class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/project-2.png"
+                        alt="project 2 png"
+                        class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/project-3.png"
+                        alt="project 3 png"
+                        class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nimmalapriyanka-git'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text_p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="email icon" 
+                    class="icon cintact-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="linkedIn icon" 
+                    class="icon cintact-icon">
+                <p><a href="https://www.linkedIn.com/in/priyanka-nimmala-6768a9372">LinkedIn</a></p>
             </div>
         </div>
     </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Priyanka Nimmala. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
